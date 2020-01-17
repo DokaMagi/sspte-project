@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "dokamagi.github.io/sspte-project/static/css/main.d1b05096.chunk.css",
-    "main.js": "dokamagi.github.io/sspte-project/static/js/main.20c95f00.chunk.js",
-    "main.js.map": "dokamagi.github.io/sspte-project/static/js/main.20c95f00.chunk.js.map",
-    "runtime-main.js": "dokamagi.github.io/sspte-project/static/js/runtime-main.f447adf2.js",
-    "runtime-main.js.map": "dokamagi.github.io/sspte-project/static/js/runtime-main.f447adf2.js.map",
-    "static/js/2.bec5472d.chunk.js": "dokamagi.github.io/sspte-project/static/js/2.bec5472d.chunk.js",
-    "static/js/2.bec5472d.chunk.js.map": "dokamagi.github.io/sspte-project/static/js/2.bec5472d.chunk.js.map",
-    "index.html": "dokamagi.github.io/sspte-project/index.html",
-    "precache-manifest.dca3f85198e533052884c7c41ad56ed0.js": "dokamagi.github.io/sspte-project/precache-manifest.dca3f85198e533052884c7c41ad56ed0.js",
-    "service-worker.js": "dokamagi.github.io/sspte-project/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "dokamagi.github.io/sspte-project/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.bec5472d.chunk.js.LICENSE": "dokamagi.github.io/sspte-project/static/js/2.bec5472d.chunk.js.LICENSE",
-    "static/media/logo.svg": "dokamagi.github.io/sspte-project/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.d1b05096.chunk.css",
+    "main.js": "/static/js/main.299e3366.chunk.js",
+    "main.js.map": "/static/js/main.299e3366.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3a1651ab.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3a1651ab.js.map",
+    "static/js/2.bec5472d.chunk.js": "/static/js/2.bec5472d.chunk.js",
+    "static/js/2.bec5472d.chunk.js.map": "/static/js/2.bec5472d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.baa4fcddc25b8f451cd360340bb204c8.js": "/precache-manifest.baa4fcddc25b8f451cd360340bb204c8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.bec5472d.chunk.js.LICENSE": "/static/js/2.bec5472d.chunk.js.LICENSE",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f447adf2.js",
+    "static/js/runtime-main.3a1651ab.js",
     "static/js/2.bec5472d.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.20c95f00.chunk.js"
+    "static/js/main.299e3366.chunk.js"
   ]
 }
