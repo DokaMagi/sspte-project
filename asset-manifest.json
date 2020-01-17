@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sspte-project/static/css/main.d1b05096.chunk.css",
-    "main.js": "/sspte-project/static/js/main.2b23e5a9.chunk.js",
-    "main.js.map": "/sspte-project/static/js/main.2b23e5a9.chunk.js.map",
-    "runtime-main.js": "/sspte-project/static/js/runtime-main.15189ad3.js",
-    "runtime-main.js.map": "/sspte-project/static/js/runtime-main.15189ad3.js.map",
-    "static/js/2.bec5472d.chunk.js": "/sspte-project/static/js/2.bec5472d.chunk.js",
-    "static/js/2.bec5472d.chunk.js.map": "/sspte-project/static/js/2.bec5472d.chunk.js.map",
-    "index.html": "/sspte-project/index.html",
-    "precache-manifest.5d83944f877faa4d4476875cd8d79c0b.js": "/sspte-project/precache-manifest.5d83944f877faa4d4476875cd8d79c0b.js",
-    "service-worker.js": "/sspte-project/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/sspte-project/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.bec5472d.chunk.js.LICENSE": "/sspte-project/static/js/2.bec5472d.chunk.js.LICENSE",
-    "static/media/logo.svg": "/sspte-project/static/media/logo.5d5d9eef.svg"
+    "main.css": "dokamagi.github.io/sspte-project/static/css/main.d1b05096.chunk.css",
+    "main.js": "dokamagi.github.io/sspte-project/static/js/main.20c95f00.chunk.js",
+    "main.js.map": "dokamagi.github.io/sspte-project/static/js/main.20c95f00.chunk.js.map",
+    "runtime-main.js": "dokamagi.github.io/sspte-project/static/js/runtime-main.f447adf2.js",
+    "runtime-main.js.map": "dokamagi.github.io/sspte-project/static/js/runtime-main.f447adf2.js.map",
+    "static/js/2.bec5472d.chunk.js": "dokamagi.github.io/sspte-project/static/js/2.bec5472d.chunk.js",
+    "static/js/2.bec5472d.chunk.js.map": "dokamagi.github.io/sspte-project/static/js/2.bec5472d.chunk.js.map",
+    "index.html": "dokamagi.github.io/sspte-project/index.html",
+    "precache-manifest.dca3f85198e533052884c7c41ad56ed0.js": "dokamagi.github.io/sspte-project/precache-manifest.dca3f85198e533052884c7c41ad56ed0.js",
+    "service-worker.js": "dokamagi.github.io/sspte-project/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "dokamagi.github.io/sspte-project/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.bec5472d.chunk.js.LICENSE": "dokamagi.github.io/sspte-project/static/js/2.bec5472d.chunk.js.LICENSE",
+    "static/media/logo.svg": "dokamagi.github.io/sspte-project/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.15189ad3.js",
+    "static/js/runtime-main.f447adf2.js",
     "static/js/2.bec5472d.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.2b23e5a9.chunk.js"
+    "static/js/main.20c95f00.chunk.js"
   ]
 }
