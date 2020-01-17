@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sstpe-project/static/css/main.d1b05096.chunk.css",
-    "main.js": "/sstpe-project/static/js/main.712fd5e3.chunk.js",
-    "main.js.map": "/sstpe-project/static/js/main.712fd5e3.chunk.js.map",
-    "runtime-main.js": "/sstpe-project/static/js/runtime-main.743ca855.js",
-    "runtime-main.js.map": "/sstpe-project/static/js/runtime-main.743ca855.js.map",
-    "static/js/2.bec5472d.chunk.js": "/sstpe-project/static/js/2.bec5472d.chunk.js",
-    "static/js/2.bec5472d.chunk.js.map": "/sstpe-project/static/js/2.bec5472d.chunk.js.map",
-    "index.html": "/sstpe-project/index.html",
-    "precache-manifest.d7b4b67983565cba08ad700d8858d92f.js": "/sstpe-project/precache-manifest.d7b4b67983565cba08ad700d8858d92f.js",
-    "service-worker.js": "/sstpe-project/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/sstpe-project/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.bec5472d.chunk.js.LICENSE": "/sstpe-project/static/js/2.bec5472d.chunk.js.LICENSE",
-    "static/media/logo.svg": "/sstpe-project/static/media/logo.5d5d9eef.svg"
+    "main.css": "/sspte-project/static/css/main.d1b05096.chunk.css",
+    "main.js": "/sspte-project/static/js/main.2b23e5a9.chunk.js",
+    "main.js.map": "/sspte-project/static/js/main.2b23e5a9.chunk.js.map",
+    "runtime-main.js": "/sspte-project/static/js/runtime-main.15189ad3.js",
+    "runtime-main.js.map": "/sspte-project/static/js/runtime-main.15189ad3.js.map",
+    "static/js/2.bec5472d.chunk.js": "/sspte-project/static/js/2.bec5472d.chunk.js",
+    "static/js/2.bec5472d.chunk.js.map": "/sspte-project/static/js/2.bec5472d.chunk.js.map",
+    "index.html": "/sspte-project/index.html",
+    "precache-manifest.5d83944f877faa4d4476875cd8d79c0b.js": "/sspte-project/precache-manifest.5d83944f877faa4d4476875cd8d79c0b.js",
+    "service-worker.js": "/sspte-project/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/sspte-project/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.bec5472d.chunk.js.LICENSE": "/sspte-project/static/js/2.bec5472d.chunk.js.LICENSE",
+    "static/media/logo.svg": "/sspte-project/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.743ca855.js",
+    "static/js/runtime-main.15189ad3.js",
     "static/js/2.bec5472d.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.712fd5e3.chunk.js"
+    "static/js/main.2b23e5a9.chunk.js"
   ]
 }
