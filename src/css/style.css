@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Mukta&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Coolors Exported Palette - coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51 */
+body {
+  font-family: 'Mukta', sans-serif; }
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.5em; }
+
+a {
+  color: #EFEFEF; }
+
+/* Title Header */
+.doka-info {
+  width: 100%;
+  background-color: #6778A6;
+  color: #EFEFEF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 7%;
+  box-sizing: border-box;
+  -moz-box-shadow: inset 0 -1px 3px 1px #2D2D2D;
+  -webkit-box-shadow: inset 0 -1px 3px 1px #2D2D2D;
+  box-shadow: inset 0 -1px 3px 1px #2D2D2D; }
+
+.doka-info ul {
+  display: flex; }
+
+.doka-info li {
+  margin: 20px 1em; }
+
+.logo-container {
+  width: 100px;
+  display: flex; }
+
+.logo-container img {
+  width: 100%;
+  margin: auto; }
+
+/* Mobile Navegation */
+.mobile-nav-icon {
+  font-size: 45px; }
+
+.transparency-background {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4); }
+
+.main-header-nav {
+  background: #6778A6;
+  padding: 3% 7%;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 70%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: -70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: right; }
+  .main-header-nav nav {
+    width: 100%; }
+  .main-header-nav ul {
+    display: flex;
+    flex-direction: column; }
+    .main-header-nav ul li:last-of-type {
+      border-bottom: 1px #2E3A59 solid; }
+  .main-header-nav li {
+    margin: 0;
+    border-top: 1px #2E3A59 solid;
+    padding: 8%; }
+  .main-header-nav .mobile-only {
+    width: 100%; }
+    .main-header-nav .mobile-only .mobile-nav-back {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0; }
+      .main-header-nav .mobile-only .mobile-nav-back span {
+        font-weight: bold;
+        font-size: 2em; }
+
+.menu-dectived {
+  display: none; }
+
+.main-header-nav.menu-actived {
+  right: 0; }
+
+/* Header Navegation Bar */
+.sspte-nav {
+  width: 100%;
+  height: 100px;
+  background-color: #2D2D2D;
+  display: flex; }
+  .sspte-nav nav {
+    width: 100%;
+    border-top: 15px #2D2D2D solid;
+    border-bottom: 15px #2D2D2D solid; }
+  .sspte-nav ul {
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    text-align: center; }
+    .sspte-nav ul li {
+      flex-grow: 1; }
+      .sspte-nav ul li a {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .sspte-nav ul li a span {
+          margin: 0.2em; }
+      .sspte-nav ul li .sspte-nav-icon {
+        font-size: 2.3em; }
+    .sspte-nav ul li:nth-of-type(2) {
+      border-left: 1px #EFEFEF solid;
+      border-right: 1px #EFEFEF solid; }
+
+/*# sourceMappingURL=style.css.map */
