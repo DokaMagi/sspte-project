@@ -1,0 +1,37 @@
+.user-toolbar {
+    widows: 100%;
+    display: flex;
+    background-color: $white;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+
+    border-radius: 0 0 30px 30px;
+
+
+    @include shadow;
+
+}
+
+.user-button {
+    flex-grow: 1;
+    text-align: center;
+    padding: 8px;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+        margin-top: 0.4em;
+    }
+
+    &:first-of-type {
+        border-right: 1px solid $black;
+    }
+    &:last-of-type {
+        border-left: 1px solid $black;
+    }
+
+}
