@@ -43,10 +43,10 @@ function App() {
 
          <div className="poke-container">
 
-            <span class="poke-name">Poke do zé</span>
+            <span className="poke-name">Poke do zé</span>
 
             <div className="content-container">
-               <div class="img-container">
+               <div className="img-container">
                   <img src={poketest}></img>
                </div>
                <div className="poke-info">
@@ -67,10 +67,10 @@ function App() {
 
          <div className="poke-container">
 
-            <span class="poke-name">Poke do zé</span>
+            <span className="poke-name">Poke do zé</span>
 
             <div className="content-container">
-               <div class="img-container">
+               <div className="img-container">
                   <img src={poketest}></img>
                </div>
                <div className="poke-info">
@@ -91,10 +91,10 @@ function App() {
 
          <div className="poke-container">
 
-            <span class="poke-name">Poke do zé</span>
+            <span className="poke-name">Poke do zé</span>
 
             <div className="content-container">
-               <div class="img-container">
+               <div className="img-container">
                   <img src={poketest}></img>
                </div>
                <div className="poke-info">
@@ -116,7 +116,7 @@ function App() {
       </div>
       
 
-      <div class="footer">
+      <div className="footer">
          <div className="footer-info">
             <span className="footer-title">Uma colaboração DokaMagi e Staff PSPT</span>
          </div>
