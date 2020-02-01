@@ -1,16 +1,18 @@
 .user-toolbar {
-    widows: 100%;
+    width: 100%;
     display: flex;
     background-color: $white;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 10px 0;
+    padding-left: 50px;
     position: relative;
     z-index: 1;
+    box-sizing: border-box;
 
-    border-radius: 0 0 30px 30px;
+    border-radius: 0 0 0 50px;
 
 
-    @include shadow;
+    @include inverted-shadow;
 
 }
 
@@ -27,11 +29,5 @@
         margin-top: 0.4em;
     }
 
-    &:first-of-type {
-        border-right: 1px solid $black;
-    }
-    &:last-of-type {
-        border-left: 1px solid $black;
-    }
-
+    border-left: 2px solid $black;
 }

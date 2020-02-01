@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/style.css'
 import logo from "./img/Davatar.png";
+import poketest from "./img/rayquaza-mega.png"
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -21,6 +22,8 @@ function App() {
          
       </div>
 
+      {/*
+
       <div className="user-toolbar">
          <div className="user-teams user-button">
             <FontAwesomeIcon icon={faKhanda}></FontAwesomeIcon>
@@ -32,8 +35,90 @@ function App() {
          </div>
       </div>
 
+      */}
+
+      <h2>Poke-fighters</h2>
+
       <div className="dashboard">
 
+         <div className="poke-container">
+
+            <span class="poke-name">Poke do zé</span>
+
+            <div className="content-container">
+               <div class="img-container">
+                  <img src={poketest}></img>
+               </div>
+               <div className="poke-info">
+                  <div className="poke-types">
+                     <span className="type1 type">Dragon</span>
+                     <span className="type2 type">Flying</span>
+                  </div>
+               
+                  <div className="function">
+                     <span className="item">ico</span>
+                     <span className="strong">/</span>
+                     <span className="ability strong">Delta Stream</span>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+       
+      </div>
+
+      <div className="dashboard">
+
+         <div className="poke-container">
+
+            <span class="poke-name">Poke do zé</span>
+
+            <div className="content-container">
+               <div class="img-container">
+                  <img src={poketest}></img>
+               </div>
+               <div className="poke-info">
+                  <div className="poke-types">
+                     <span className="type1 type">Dragon</span>
+                     <span className="type2 type">Flying</span>
+                  </div>
+               
+                  <div className="function">
+                     <span className="item">ico</span>
+                     <span className="strong">/</span>
+                     <span className="ability strong">Delta Stream</span>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+       
+      </div>
+      <div className="dashboard">
+
+         <div className="poke-container">
+
+            <span class="poke-name">Poke do zé</span>
+
+            <div className="content-container">
+               <div class="img-container">
+                  <img src={poketest}></img>
+               </div>
+               <div className="poke-info">
+                  <div className="poke-types">
+                     <span className="type1 type">Dragon</span>
+                     <span className="type2 type">Flying</span>
+                  </div>
+               
+                  <div className="function">
+                     <span className="item">ico</span>
+                     <span className="strong">/</span>
+                     <span className="ability strong">Delta Stream</span>
+                  </div>
+
+               </div>
+            </div>
+         </div>
        
       </div>
 

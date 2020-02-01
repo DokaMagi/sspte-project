@@ -10,6 +10,14 @@ h1 {
     line-height: 1.5em;
 }
 
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 3em;
+    color: $black;
+    padding-left: 15px;
+}
+
 
 a {
     color: $white;

@@ -3,6 +3,7 @@
 
 $white: #EFEFEF;
 $black: #2D2D2D;
+$backblacker: #111111;
 $transparent: rgba(0, 0, 0 ,0);
 
 $pink: #FF9F9C;
@@ -12,10 +13,17 @@ $darkwine: #402827;
 $yellow: #FDFFB5;
 
 $blue: #82C6FF;
-$darkblue: #7579FF;
+$darkblue: #585BBF;
+
 
 $header-gradient1: $wine;
 $header-gradient2: $darkwine;
 
 $dashboard-gradient1: $yellow;
 $dashboard-gradient2: $darkpink;
+
+$container-gradient1: $blue;
+$container-gradient2: $darkblue;
+
+$container-title-gradient1: $black;
+$container-title-gradient2: $backblacker;

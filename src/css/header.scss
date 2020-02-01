@@ -12,7 +12,7 @@
 
     position: relative;
 
-    @include shadow;
+    @include inverted-shadow;
 
     h1 {
         font-size: 2.4em;
