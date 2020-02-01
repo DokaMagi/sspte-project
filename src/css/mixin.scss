@@ -11,7 +11,7 @@
 }
 
 @mixin small-shadow {
-    -webkit-box-shadow: 1px 1px 6px 0px $black;
-    -moz-box-shadow: 1px 1px 6px 0px $black;
-    box-shadow: 1px 1px 6px 0px $black;
+    -webkit-box-shadow: 1px 1px 6px 0px rgba($black, 0.7);
+    -moz-box-shadow: 1px 1px 6px 0px rgba($black, 0.7);
+    box-shadow: 1px 1px 6px 0px rgba($black, 0.7);
 }
