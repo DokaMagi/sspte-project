@@ -1,14 +1,11 @@
 /* Title Header */
 
-.header {
-    width:100%;
+header {
     background-image: linear-gradient(160deg, $header-gradient1, $header-gradient2);
     color: $white; 
-    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 3%;
-    box-sizing: border-box;
 
     position: relative;
 
@@ -20,31 +17,10 @@
         line-height: 1.2em;
     }
 
-    ul {
-        display: flex;
-    
-    }
-
-    li {
-        margin: 20px 1em;
-    }
-
     z-index: 2;
 
 }
 
-
-.logo-container {
+.logo {
     height: 100px;
-    display:flex;
-
-    img {
-        height: 100%;
-        margin: auto;
-    }
-
-}
-
-.container {
-    width: 100%;
 }

@@ -11,112 +11,58 @@ function App() {
   return (
    <div id="app">
       <div className="background"></div>
-      <div className="header">
-            <div className="logo-container">
+      <header className="flex-box">
+            <div className="img-container logo">
                <img src={logo}></img>
             </div>
             <h1>Projetos PSPT</h1>
-            <div className="logo-container">
+            <div className="img-container logo">
                <img src={logo}></img>
             </div>
          
-      </div>
+      </header>
 
-      {/*
+      <main>
+         <h2>Poke-fighters</h2>
 
-      <div className="user-toolbar">
-         <div className="user-teams user-button">
-            <FontAwesomeIcon icon={faKhanda}></FontAwesomeIcon>
-            <span>Times</span>
-         </div>
-         <div className="user-icon user-button">
-            <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
-            <span>Usuário</span>
-         </div>
-      </div>
+         <div className="dashboard flex-box">
 
-      */}
+            <div className="poke-container">
 
-      <h2>Poke-fighters</h2>
+               <span className="poke-name">Poke do zé</span>
 
-      <div className="dashboard">
-
-         <div className="poke-container">
-
-            <span className="poke-name">Poke do zé</span>
-
-            <div className="content-container">
-               <div className="img-container">
-                  <img src={poketest}></img>
-               </div>
-               <div className="poke-info">
-                  <div className="poke-types">
-                     <span className="type1 type">Dragon</span>
-                     <span className="type2 type">Flying</span>
+               <div className="content-container flex-box">
+                  <div className="img-container poke-icon-container">
+                     <img src={poketest}></img>
                   </div>
-               
-                  <div className="function">
-                     <span className="item">ico</span>
-                     <span className="strong">/</span>
-                     <span className="ability strong">Delta Stream</span>
-                  </div>
+                  <div className="poke-info flex-box">
+                     <div className="flex-box flex-vertical-container">
+                        <div className="poke-definitions flex-box">
+                           <div className="level-display flex-box">
+                              <span className="level-title">LVL</span>
+                              <span className="level-value">100</span>
+                           </div>
+                           <div className="poke-types flex-box">
+                              <span className="type type1">Dragon</span> 
+                              <span className="type type2">Flying</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div className="poke-utility">
+                        <span className="item">ico</span>
+                        <span className="strong">/</span>
+                        <span className="ability strong">Delta Stream</span>
+                     </div>
 
+                  </div>
                </div>
             </div>
+         
          </div>
-
-         <div className="poke-container">
-
-            <span className="poke-name">Poke do zé</span>
-
-            <div className="content-container">
-               <div className="img-container">
-                  <img src={poketest}></img>
-               </div>
-               <div className="poke-info">
-                  <div className="poke-types">
-                     <span className="type1 type">Dragon</span>
-                     <span className="type2 type">Flying</span>
-                  </div>
-               
-                  <div className="function">
-                     <span className="item">ico</span>
-                     <span className="strong">/</span>
-                     <span className="ability strong">Delta Stream</span>
-                  </div>
-
-               </div>
-            </div>
-         </div>
-
-         <div className="poke-container">
-
-            <span className="poke-name">Poke do zé</span>
-
-            <div className="content-container">
-               <div className="img-container">
-                  <img src={poketest}></img>
-               </div>
-               <div className="poke-info">
-                  <div className="poke-types">
-                     <span className="type1 type">Dragon</span>
-                     <span className="type2 type">Flying</span>
-                  </div>
-               
-                  <div className="function">
-                     <span className="item">ico</span>
-                     <span className="strong">/</span>
-                     <span className="ability strong">Delta Stream</span>
-                  </div>
-
-               </div>
-            </div>
-         </div>
-       
-      </div>
       
+      </main>
 
-      <div className="footer">
+      <footer>
          <div className="footer-info">
             <span className="footer-title">Uma colaboração DokaMagi e Staff PSPT</span>
          </div>
@@ -130,7 +76,7 @@ function App() {
             <a href="https://pspt.boards.net">Forúm PT</a>
          </div>
 
-      </div>
+      </footer>
 
    </div>
 
