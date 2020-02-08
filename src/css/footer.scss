@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    background-image: linear-gradient(180deg, $black-gradient1, $black-gradient2);
+    @include black-gradient;
     color: $white;
     margin-top: 40px;
 

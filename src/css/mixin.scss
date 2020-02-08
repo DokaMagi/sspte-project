@@ -1,3 +1,6 @@
+/* -- Shadows -- */
+
+/* Objs */
 @mixin inverted-shadow {
     -webkit-box-shadow: 1px -6px 16px 1px $black;
     -moz-box-shadow: 1px -6px 16px 1px $black;
@@ -14,4 +17,73 @@
     -webkit-box-shadow: 1px 1px 6px 0px rgba($black, 0.7);
     -moz-box-shadow: 1px 1px 6px 0px rgba($black, 0.7);
     box-shadow: 1px 1px 6px 0px rgba($black, 0.7);
+}
+
+
+
+
+/* Text */
+
+@mixin inverted-text-shadow {
+    text-shadow: 1px -6px 16px $black;
+}
+
+@mixin normal-text-shadow {
+    text-shadow: 4px 6px 19px $black;
+}
+
+@mixin small-text-shadow {
+    text-shadow: 1px 1px 6px rgba($black, 0.7);
+}
+
+
+
+/*Img*/
+
+@mixin small-img-shadow {
+    filter: drop-shadow(2px 2px 3px $black);
+    -webkit-filter: drop-shadow(2px 2px 3px $black);
+}
+
+@mixin normal-img-shadow {
+    filter: drop-shadow(4px 4px 4px $black);
+    -webkit-filter: drop-shadow(4px 4px 4px $black);
+}
+
+
+/* -- Gradients -- */
+
+@mixin create-gradient($dir, $color1, $color2, $opac1: 1, $opac2: $opac1, $intenc1: 0, $intenc2: 100%) {
+    background-image: -webkit-linear-gradient(legacy-direction($dir), rgba($color1, $opac1) $intenc1, rgba($color2, $opac2) $intenc2);
+    background-image: linear-gradient($dir, rgba($color1, $opac1) $intenc1, rgba($color2, $opac2) $intenc2);
+}
+
+
+
+@mixin peach-gradient($dir: 160deg, $opac: 1) {
+    @include create-gradient($dir, $yellow, $pink, $opac, $opac, 0%, 75%)
+}
+
+@mixin lightwine-gradient($dir: 115deg, $opac: .94) {
+    @include create-gradient($dir, $darkpink, $wine, $opac)
+}
+
+@mixin black-gradient($dir: 180deg, $opac: 1) {
+    @include create-gradient($dir, $black, $darkerblack, $opac)
+}
+
+@mixin wine-gradient($dir: 160deg, $opac: 1) {
+    @include create-gradient($dir, $wine, $darkwine, $opac)
+}
+
+@mixin white-gradient($dir: 20deg, $opac: .95) {
+    @include create-gradient($dir, $white, $grey, $opac)
+}
+
+@mixin lightblue-gradient($dir:356deg, $opac: .7) {
+    @include create-gradient($dir, $blue, $darkblue, $opac)
+}
+
+@mixin yellow-gradient($dir:160deg, $opac: .94) {
+    @include create-gradient($dir, $darkyellow, $darkeryellow, $opac, $opac)
 }

@@ -1,7 +1,7 @@
 /* Title Header */
 
 header {
-    background-image: linear-gradient(160deg, $header-gradient1, $header-gradient2);
+    @include wine-gradient;
     color: $white; 
     align-items: center;
     justify-content: space-between;

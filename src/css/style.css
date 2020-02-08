@@ -54,6 +54,11 @@ table {
 }
 
 /* Coolors Exported Palette - coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51 */
+/* -- Shadows -- */
+/* Objs */
+/* Text */
+/*Img*/
+/* -- Gradients -- */
 html {
   height: 100%;
 }
@@ -111,7 +116,8 @@ a {
 }
 
 .background {
-  background-image: linear-gradient(160deg, #FDFFB5, #FF9F9C 75%);
+  background-image: -webkit-linear-gradient(legacy-direction(160deg), #fdffb5 0%, #ff9f9c 75%);
+  background-image: linear-gradient(160deg, #fdffb5 0%, #ff9f9c 75%);
   position: fixed;
   bottom: 0;
   left: 0;
@@ -120,9 +126,25 @@ a {
   z-index: -1;
 }
 
+.button {
+  font-family: "Mukta", sans-serif;
+  border-radius: 20px 0 20px 0;
+  padding: 5px 30px;
+  background-image: -webkit-linear-gradient(legacy-direction(180deg), #2d2d2d 0, #111111 100%);
+  background-image: linear-gradient(180deg, #2d2d2d 0, #111111 100%);
+  -webkit-box-shadow: 1px 1px 6px 0px rgba(45, 45, 45, 0.7);
+  -moz-box-shadow: 1px 1px 6px 0px rgba(45, 45, 45, 0.7);
+  box-shadow: 1px 1px 6px 0px rgba(45, 45, 45, 0.7);
+}
+.button button {
+  color: #EFEFEF;
+  border: 0;
+}
+
 /* Title Header */
 header {
-  background-image: linear-gradient(160deg, #804F4E, #402827);
+  background-image: -webkit-linear-gradient(legacy-direction(160deg), #804f4e 0, #402827 100%);
+  background-image: linear-gradient(160deg, #804f4e 0, #402827 100%);
   color: #EFEFEF;
   align-items: center;
   justify-content: space-between;
@@ -143,34 +165,30 @@ header h1 {
   height: 100px;
 }
 
-.user-toolbar {
+.menu-drawer-background {
   width: 100%;
+  position: fixed;
+  bottom: 2em;
+  left: 0;
   display: flex;
-  background-color: #EFEFEF;
-  justify-content: space-between;
-  padding: 10px 0;
-  padding-left: 50px;
-  position: relative;
-  z-index: 1;
-  box-sizing: border-box;
-  border-radius: 0 0 0 50px;
-  -webkit-box-shadow: 1px -6px 16px 1px #2D2D2D;
-  -moz-box-shadow: 1px -6px 16px 1px #2D2D2D;
-  box-shadow: 1px -6px 16px 1px #2D2D2D;
+  justify-content: center;
 }
 
-.user-button {
-  flex-grow: 1;
-  text-align: center;
-  padding: 8px;
-  font-size: 1.5em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-left: 2px solid #2D2D2D;
+.menu-drawer-button {
+  background-image: -webkit-linear-gradient(legacy-direction(167deg), rgba(255, 206, 130, 0.94) 0, rgba(230, 185, 117, 0.94) 100%);
+  background-image: linear-gradient(167deg, rgba(255, 206, 130, 0.94) 0, rgba(230, 185, 117, 0.94) 100%);
+  padding: 10px 34%;
+  -webkit-box-shadow: 4px 6px 19px -3px #2D2D2D;
+  -moz-box-shadow: 4px 6px 19px -3px #2D2D2D;
+  box-shadow: 4px 6px 19px -3px #2D2D2D;
 }
-.user-button span {
-  margin-top: 0.4em;
+.menu-drawer-button button {
+  color: #2D2D2D;
+  filter: drop-shadow(2px 2px 3px #2D2D2D);
+  -webkit-filter: drop-shadow(2px 2px 3px #2D2D2D);
+  background-image: initial;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0.9;
 }
 
 main {
@@ -203,7 +221,8 @@ main h2 {
   box-shadow: 4px 6px 19px -3px #2D2D2D;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(176deg, rgba(88, 91, 191, 0.7), rgba(130, 198, 255, 0.7));
+  background-image: -webkit-linear-gradient(legacy-direction(356deg), rgba(130, 198, 255, 0.7) 0, rgba(88, 91, 191, 0.7) 100%);
+  background-image: linear-gradient(356deg, rgba(130, 198, 255, 0.7) 0, rgba(88, 91, 191, 0.7) 100%);
 }
 .poke-container .poke-name {
   font-size: 1.4em;
@@ -211,7 +230,8 @@ main h2 {
   color: white;
   padding: 15px;
   border-radius: 0 30px 0 0;
-  background-image: linear-gradient(176deg, #111111, #2D2D2D);
+  background-image: -webkit-linear-gradient(legacy-direction(356deg), #2d2d2d 0, #111111 100%);
+  background-image: linear-gradient(356deg, #2d2d2d 0, #111111 100%);
 }
 .poke-container:first-of-type {
   margin-top: 0px;
@@ -251,7 +271,8 @@ main h2 {
   justify-content: center;
   color: #EFEFEF;
   padding: 0.1em 1em;
-  background-image: linear-gradient(176deg, rgba(17, 17, 17, 0.7), rgba(45, 45, 45, 0.7));
+  background-image: -webkit-linear-gradient(legacy-direction(356deg), rgba(45, 45, 45, 0.7) 0, rgba(17, 17, 17, 0.7) 100%);
+  background-image: linear-gradient(356deg, rgba(45, 45, 45, 0.7) 0, rgba(17, 17, 17, 0.7) 100%);
   border-radius: 0 20px 20px 20px;
 }
 .content-container .poke-info .poke-definitions .level-display .level-title {
@@ -295,7 +316,8 @@ main h2 {
 
 footer {
   width: 100%;
-  background-image: linear-gradient(180deg, #2D2D2D, #111111);
+  background-image: -webkit-linear-gradient(legacy-direction(180deg), #2d2d2d 0, #111111 100%);
+  background-image: linear-gradient(180deg, #2d2d2d 0, #111111 100%);
   color: #EFEFEF;
   margin-top: 40px;
   padding: 20px 0;

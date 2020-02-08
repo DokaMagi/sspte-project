@@ -1,0 +1,28 @@
+.menu-drawer-background {
+
+    width: 100%;
+
+    position: fixed;
+    bottom: 2em;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.menu-drawer-button {
+
+    @include yellow-gradient(167deg);
+    padding: 10px 34%;
+
+    @include normal-shadow;
+
+    button {
+        color: $black;
+        @include small-img-shadow;
+        background-image: initial;
+        background-color: rgba(0, 0, 0, 0);
+        opacity: 0.9;
+    }
+
+}
