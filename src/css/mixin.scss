@@ -19,7 +19,11 @@
     box-shadow: 1px 1px 6px 0px rgba($black, 0.7);
 }
 
-
+@mixin no-shadow {
+    -webkit-box-shadow: initial;
+    -moz-box-shadow: initial;
+    box-shadow: initial;
+}
 
 
 /* Text */
@@ -58,14 +62,8 @@
     background-image: linear-gradient($dir, rgba($color1, $opac1) $intenc1, rgba($color2, $opac2) $intenc2);
 }
 
-
-
 @mixin peach-gradient($dir: 160deg, $opac: 1) {
     @include create-gradient($dir, $yellow, $pink, $opac, $opac, 0%, 75%)
-}
-
-@mixin lightwine-gradient($dir: 115deg, $opac: .94) {
-    @include create-gradient($dir, $darkpink, $wine, $opac)
 }
 
 @mixin black-gradient($dir: 180deg, $opac: 1) {
@@ -84,6 +82,22 @@
     @include create-gradient($dir, $blue, $darkblue, $opac)
 }
 
-@mixin yellow-gradient($dir:160deg, $opac: .94) {
-    @include create-gradient($dir, $darkyellow, $darkeryellow, $opac, $opac)
+
+/* -- Others -- */
+
+@mixin square-container {
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    position: relative;
+    
+}
+
+@mixin square-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }

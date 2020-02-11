@@ -1,7 +1,11 @@
 import React from 'react';
+
 import './css/style.css'
+
 import logo from "./img/Davatar.png";
 import poketest from "./img/rayquaza-mega.png"
+import menu from "./img/icons/list.svg"
+
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -25,12 +29,14 @@ function App() {
             </div>
          </div>
 
-         <div className="menu-drawer-background">
-            <div className="button menu-drawer-button">
-               <button>
-                  <FontAwesomeIcon icon={faEllipsisH} size="3x"/>
-               </button>
+         <div className="menu-flutter-background flex-box">
+            <div className="menu-button-container">
+               <div className="button menu-drawer-button">
+                  <button>
+                  </button>
+               </div>
             </div>
+
          </div>
 
          <nav>

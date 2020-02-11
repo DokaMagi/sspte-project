@@ -51,7 +51,7 @@ a {
 .img-container {
     display: flex;
     align-items: center;
-    img {
+    img, div {
         height: 100%;
         margin: auto;
     }
@@ -69,16 +69,18 @@ a {
 
 .button {
 
-    font-family: 'Mukta', sans-serif; 
-    border-radius: 20px 0 20px 0;
     padding: 5px 30px;
     @include black-gradient;
-
     @include small-shadow;
+    border: 0;
+    box-sizing: border-box;
 
     button {
+        font-family: 'Mukta', sans-serif;
         color: $white;
         border: 0;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 0;
     }
 
 }
